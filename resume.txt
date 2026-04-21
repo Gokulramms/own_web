@@ -1,0 +1,78 @@
+GOKULRAMM S
+Full Stack Developer | Backend Developer | AI Systems Engineer
+Address: Coimbatore, T amil Nadu 641035, India
+gokulramms@gmail.com | +91 63852 20446 | linkedin.com/in/gokulramm-s |gokulramm.vercel.app
+͓ Professional Summary
+Detail-oriented Full Stack Developer with strong experience in backend development, AI-powered systems,
+and scalable web applications. Skilled in Python, Java, REST APIs, and database-driven architectures.
+Proven ability to design real-world solutions involving automation, document intelligence, and system opti-
+mization. Recognized at national-level hackathons and technical expos.
+ϻ T echnical Skills
+Programming Languages: Python, Java, C
+Web Technologies: HTML, CSS, JavaScript, React.js
+Backend Development: Flask, REST API Development
+Databases: MySQL, SQLAlchemy
+AI & Machine Learning: OpenCV , Deep Learning, YOLOv8.
+Embedded Systems: Arduino, Raspberry Pi
+Core Concepts: Data Structures, Object-Oriented Programming.
+Developer T ools: Git, GitHub, VercelSoft Skills
+Problem Solving
+Analytical Thinking
+T eam Collaboration
+T echnical Mentorship
+Effective Communication
+Leadership
+Adaptability
+Time Management
+ë Experience
+Full Stack Development Intern Nov 2023 – Jan 2024
+Lakshmi Life Sciences, Coimbatore
+•Developed a real-time website counting system using React and Python to improve operational monitoring.
+•Built an AI-based object counting model using YOLOv8 for packaging process optimization.
+•Integrated frontend interfaces with backend services and AI models to ensure seamless data flow.
+•Reduced manual tracking efforts and improved process accuracy .
+Ń Projects
+AI-Smart Campus System
+•Developed an AI-powered academic platform allowing students to upload documents and receive auto-
+mated summaries.
+•Implemented AI-based question generation and quiz practice modules to enhance concept understanding.
+•Designed backend workflows for document processing, session persistence, and secure session sharing
+using unique access codes.
+T ech Stack: Python, Flask, React, AI/NLP T eam Size: 2 Role: Full Stack Developer
+E-PASS System
+•Designed a QR code-based campus guest entry system with real-time validation.
+•Implemented role-based access control and visitor logging to improve campus security.
+•Built backend services for QR validation, user role management, and database-driven entry tracking.
+T ech Stack: React, Python, MySQL Team Size: 2 Role: Full Stack Developer
+FaceT rack Attendance System
+•Built an AI-powered facial recognition system for automated attendance management.
+•Enabled real-time face detection, matching, and automatic attendance logging with dynamic report gener-
+ation.
+•Integrated OpenCV-based recognition pipelines with backend attendance services.
+T ech Stack: HTML, CSS, Python, OpenCV Team Size: 2 Role: T eam Lead – Backend & AI
+Train Guard – Anti-Crash System
+•Developed a microcontroller-based collision avoidance system to enhance railway safety .
+•Used ultrasonic sensors to detect obstacles and trigger real-time alerts.
+•Implemented embedded control logic using Arduino for cost-effective deployment.
+T ech Stack: Embedded Systems, Arduino, Ultrasonic Sensors T eam Size: 3 Role: T eam Lead –
+Embedded
+AI Chatbot – Smart India Hackathon 2023
+•Developed a decision-tree-based AI chatbot to assist citizens with government service information.
+•Designed backend logic to process user queries and deliver structured responses.
+•Implemented rule-based decision flows for multi-service navigation.
+T ech Stack: HTML, CSS, Python, YOLOv5 T eam Size: 4 Role: Backend Developer
+ʦ Technical Mentorship
+•PYEXPO 2024, PYEXPO 2025 : Mentored junior students on Python automation, API integration, and
+deployment best practices. Supervised technical booths and guided project showcases.
+•SIH Thiruvizha : Served as a mentor during internal Smart India Hackathon mock hackathons, assisting
+teams with system architecture design, idea refinement, and tech stack selection.
+International Conference
+•PyCon India 2023 : Participated in PyCon India held in Hyderabad, engaging with industry experts and
+sessions on advanced Python technologies and best practices.
+ŵ Education
+B.T ech in Artificial Intelligence and Data Science 2022 – 2026
+KGiSL Institute of T echnology , Coimbatore
+Higher Secondary Certificate (HSC) 2022
+Sri Venkateswara Vidhyalaya Higher Secondary School
+Secondary School Leaving Certificate (SSLC) 2020
+Sri Venkateswara Vidhyalaya Matriculation School
