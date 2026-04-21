@@ -48,12 +48,12 @@ function App() {
       <CustomCursor />
       
       <main className="relative z-10 flex flex-col w-full">
-        <Hero />
-        <Works />
-        <About />
+        <div id="hero"><Hero /></div>
+        <div id="works"><Works /></div>
+        <div id="about"><About /></div>
         
         {/* Massive Brutal Footer (Gold Theme) with 3D Integration */}
-        <footer className="w-full bg-[#000000] min-h-[80vh] py-32 px-8 md:px-16 border-t-[20px] border-[#D4AF37] flex flex-col justify-between relative z-20 overflow-hidden">
+        <footer id="contact" className="w-full bg-[#000000] min-h-[80vh] py-32 px-8 md:px-16 border-t-[20px] border-[#D4AF37] flex flex-col justify-between relative z-20 overflow-hidden">
             
             {/* Absolute 3D Canvas bridging the background */}
             <div className="absolute inset-0 z-0 pointer-events-auto opacity-50 md:opacity-100 flex justify-end">
@@ -78,18 +78,30 @@ function App() {
                 </h2>
                 
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 w-full mt-auto">
-                    <div className="flex flex-col gap-4">
-                        <span className="font-body italic text-xl md:text-2xl text-white/50">Transmission Link</span>
-                        <a href="mailto:gokulramms@gmail.com" className="font-oswald text-3xl md:text-5xl text-[#D4AF37] uppercase tracking-widest interactive hover:opacity-50 transition-opacity">
-                            GOKULRAMMS@GMAIL.COM
+                    <div className="flex flex-col gap-8 w-full md:w-auto">
+                        <div className="flex flex-col gap-4">
+                            <span className="font-body italic text-xl md:text-2xl text-white/50">Transmission Link</span>
+                            <a href="mailto:gokulramms@gmail.com" className="font-oswald text-3xl md:text-5xl text-[#D4AF37] uppercase tracking-widest interactive hover:opacity-50 transition-opacity">
+                                GOKULRAMMS@GMAIL.COM
+                            </a>
+                        </div>
+                        {/* Download Resume Button */}
+                        <a href="https://drive.google.com/file/d/1AJpLEwlVJur6D0GxP6iCA-jOiuxjIDQw/view?usp=sharing" target="_blank" rel="noreferrer" className="inline-block w-fit font-oswald text-sm md:text-lg uppercase tracking-[0.2em] text-[#000] bg-[#D4AF37] px-8 py-4 hover:bg-white hover:text-black transition-all duration-500 interactive pointer-events-auto">
+                            DOWNLOAD RESUME
                         </a>
                     </div>
                     
-                    <div className="flex flex-col md:flex-row gap-6 md:gap-12 text-right">
-                        <a href="https://github.com/Gokulramms" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">GITHUB</a>
-                        <a href="https://www.linkedin.com/in/gokulramm-s-984a69257" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">LINKEDIN</a>
-                        <a href="https://x.com/its__sgr?t=pF_N0UGOUki3kNevCu60uw&s=09" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">X / TWITTER</a>
-                        <a href="https://www.instagram.com/im_sgr_?igsh=MWRoaWc5OGdqeTY5bA==" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">INSTAGRAM</a>
+                    <div className="flex flex-col items-end gap-8 text-right w-full md:w-auto">
+                        <div className="flex flex-col md:flex-row gap-6 md:gap-12 text-right">
+                            <a href="https://github.com/Gokulramms" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">GITHUB</a>
+                            <a href="https://www.linkedin.com/in/gokulramm-s-984a69257" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">LINKEDIN</a>
+                            <a href="https://x.com/its__sgr?t=pF_N0UGOUki3kNevCu60uw&s=09" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">X / TWITTER</a>
+                            <a href="https://www.instagram.com/im_sgr_?igsh=MWRoaWc5OGdqeTY5bA==" target="_blank" rel="noreferrer" className="font-oswald text-xs md:text-sm tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">INSTAGRAM</a>
+                        </div>
+                        {/* Go to Top Button */}
+                        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="font-oswald text-xs tracking-[0.3em] text-[#D4AF37] uppercase border border-[#D4AF37] px-6 py-2 hover:bg-[#D4AF37] hover:text-black transition-all duration-300 interactive mt-8 pointer-events-auto">
+                            ↑ RETURN TO BASE
+                        </button>
                     </div>
                 </div>
             </div>

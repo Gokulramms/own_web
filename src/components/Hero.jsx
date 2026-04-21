@@ -150,9 +150,9 @@ export default function Hero() {
       >
         <div className="font-oswald text-2xl font-bold tracking-widest text-[#D4AF37]">SGR.</div>
         <div className="flex gap-12 pointer-events-auto">
-            <a href="#" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">WORKS</a>
-            <a href="#" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">ABOUT</a>
-            <a href="#" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">CONTACT</a>
+            <a href="#works" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">WORKS</a>
+            <a href="#about" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">ABOUT</a>
+            <a href="#contact" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-[#D4AF37] transition-colors interactive">CONTACT</a>
         </div>
       </motion.div>
 
