@@ -133,11 +133,26 @@ export default function Hero() {
             transition={{ duration: 2, delay: 6.5 }} 
             className="w-full text-center"
         >
-          <span className="font-body italic text-[#D4AF37] text-2xl md:text-5xl mb-4 block mix-blend-difference">Gokulramm S —</span>
-          {/* mix-blend-difference is exactly what causes the text to adapt/invert perfectly to the planet glow beneath it! */}
-          <h1 className="font-oswald text-[18vw] font-black tracking-tighter uppercase text-white whitespace-nowrap leading-[0.8] mix-blend-difference">
+          <span className="font-body italic text-[#D4AF37] text-2xl md:text-5xl mb-4 block mix-blend-difference drop-shadow-[0_0_15px_rgba(212,175,55,0.8)]">Gokulramm S —</span>
+          
+          {/* Animated Liquid Metal Typography */}
+          <motion.h1 
+            animate={{ 
+                backgroundPosition: ["0% 50%", "200% 50%"] 
+            }}
+            transition={{ 
+                repeat: Infinity, 
+                duration: 6, 
+                ease: "linear" 
+            }}
+            style={{
+                backgroundImage: "linear-gradient(90deg, #FFFFFF 0%, #D4AF37 25%, #FFFFFF 50%, #D4AF37 75%, #FFFFFF 100%)",
+                backgroundSize: "200% auto",
+            }}
+            className="font-oswald text-[18vw] font-black tracking-tighter uppercase text-transparent bg-clip-text whitespace-nowrap leading-[0.8] mix-blend-difference drop-shadow-2xl"
+          >
             INTELLIGENCE
-          </h1>
+          </motion.h1>
         </motion.div>
       </div>
 
